@@ -1,0 +1,19 @@
+/**
+*
+* @package phpBB Extension - Funko Fun Links
+* @copyright (c) 2015 dmzx - http://www.funkofunatic.com
+* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* @Author Swarts - http://www.funkofunatic.com
+*
+*/
+
+.funlinks {
+	text-align:center;
+	margin-top:4px;
+	padding: 10px;
+
+}
+.funlinks img {
+	min-width: 100%;
+	max-width: 100%;
+}
