@@ -73,3 +73,34 @@ nav img {
 header .flex {
   justify-content: flex-end;
 }
+
+
+/* featured benefits section */
+
+.benefits {
+  display: flex;
+  justify-content: center;
+}
+
+.offer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  height: 8rem;
+  margin: 3rem;
+  width: 5rem;
+}
+
+.paper-sheet {
+  width: 3.5rem;
+}
+
+.offer img {
+  margin-bottom: 1rem
+}
+
+img {
+  border-style: none;
+}
