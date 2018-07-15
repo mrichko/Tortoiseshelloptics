@@ -109,10 +109,6 @@ border-style: none;
 
 /* about us section */
 
-.aboutus {
-  display: flex;
-  justify-content: center;
-}
 
 .info {
   width: 35%;
