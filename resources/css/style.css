@@ -34,6 +34,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: 1rem 0;
+  font-size: 1rem;
 }
 
 nav div {
@@ -84,23 +85,63 @@ header .flex {
 
 .offer {
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  text-align: center;
-  align-items: center;
-  height: 8rem;
-  margin: 3rem;
+  mheight: 8rem;
   width: 5rem;
-}
-
-.paper-sheet {
-  width: 3.5rem;
+  margin: 3rem;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  flex-direction: column;
 }
 
 .offer img {
-  margin-bottom: 1rem
+  width: 5rem;
+  margin-bottom: 1rem;
 }
 
 img {
-  border-style: none;
+border-style: none;
+}
+
+.benefits .paper-sheet {
+  width: 3.5rem;
+}
+
+/* about us section */
+
+.aboutus {
+  display: flex;
+  justify-content: center;
+}
+
+.info {
+  width: 35%;
+  margin-right: 5%;
+  margin-bottom: 4rem;
+}
+
+.title {
+  background-color: cadetblue;
+  font-weight: bold;
+  font-size: 1rem;
+  color: white;
+  padding: 0.5rem 1.25rem;
+}
+
+.info p {
+  padding: 1rem 0;
+}
+
+/* footer section */
+
+footer {
+  display: flex;
+  align-items: center;
+  background-color: lightblue;
+  padding: 4rem;
+}
+
+footer img {
+  height: 1.5rem;
+  margin-right: 1rem;
 }
