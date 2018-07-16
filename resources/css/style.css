@@ -81,17 +81,18 @@ header .flex {
 .benefits {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .offer {
   display: flex;
-  mheight: 8rem;
+  height: 8rem;
   width: 5rem;
   margin: 3rem;
-  align-items: center;
   text-align: center;
-  justify-content: space-between;
+  align-items: center;
   flex-direction: column;
+  justify-content: flex-end;
 }
 
 .offer img {
@@ -100,7 +101,7 @@ header .flex {
 }
 
 img {
-border-style: none;
+  border-style: none;
 }
 
 .benefits .paper-sheet {
@@ -110,8 +111,8 @@ border-style: none;
 
 /* about us section */
 .benefit {
-display: flex;
-justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .info {
