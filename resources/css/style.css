@@ -109,12 +109,16 @@ border-style: none;
 
 
 /* about us section */
-
+.benefit {
+display: flex;
+justify-content: space-between;
+}
 
 .info {
   width: 35%;
   margin-right: 5%;
   margin-bottom: 4rem;
+  flex-direction: column;
 }
 
 .title {
