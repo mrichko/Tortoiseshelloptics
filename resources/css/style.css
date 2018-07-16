@@ -1,6 +1,6 @@
 html {
   font-size: 18px;
-  background-color: lightgrey;
+  background-color: white;
   font-family: helvetica;
 }
 
@@ -107,6 +107,7 @@ border-style: none;
   width: 3.5rem;
 }
 
+
 /* about us section */
 
 
@@ -134,7 +135,7 @@ border-style: none;
 footer {
   display: flex;
   align-items: center;
-  background-color: lightblue;
+  background-color: azure;
   padding: 4rem;
 }
 
