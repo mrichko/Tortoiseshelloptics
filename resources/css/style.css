@@ -65,29 +65,38 @@ nav {
   font-size: 1rem;
 }
 
-nav div {
+nav div .menu {
   display: flex;
   align-items: center;
 }
+
 
 ul li {
   display: inline;
 }
 
-ul .mobile {
+.mobile {
   display: none;
 }
 
 @media only screen and (max-width: 480px) {
-ul {
+
+nav div.menu {
   display: none;
   }
 
+ .mobile span{
+   display: flex;
+   justify-content: flex-end;
+ }
+
 }
 
-li {
-  padding: 1rem 2rem 1rem 0;
+nav div span {
+  display: none;
 }
+
+
 
 nav img {
   margin-left: 2rem;
