@@ -73,6 +73,7 @@ nav div .menu {
 
 ul li {
   display: inline;
+  padding-right: 2rem;
 }
 
 .mobile {
@@ -87,7 +88,6 @@ nav div.menu {
 
  .mobile span{
    display: flex;
-   justify-content: flex-end;
  }
 
 }
