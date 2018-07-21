@@ -87,7 +87,7 @@ nav div.menu {
   }
 
  .mobile span{
-   display: flex;
+   display: block;
  }
 
 }
