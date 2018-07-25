@@ -167,11 +167,15 @@ img {
   width: 3.5rem;
 }
 
-@media only screen and (max-width 480px) {
+@media only screen and (max-width: 480px) {
   .benefits {
     height: auto;
     margin: 3.77rem;
     font-size: 0.77rem;
+  }
+
+  .offer div {
+    margin-bottom: 1.54rem;
   }
 }
 
