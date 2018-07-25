@@ -95,11 +95,7 @@ nav div.menu {
    display: none;
  }
 
-
 }
-
-
-
 
 
 nav img {
@@ -171,11 +167,28 @@ img {
   width: 3.5rem;
 }
 
+@media only screen and (max-width 480px) {
+  .benefits {
+    height: auto;
+    margin: 3.77rem;
+    font-size: 0.77rem;
+  }
+}
+
 
 /* about us section */
 .benefit {
   display: flex;
   justify-content: space-between;
+}
+
+@media only screen and (max-width: 480px) {
+  .main {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 3rem;
+  }
 }
 
 .info {
